@@ -35,3 +35,8 @@ ehthumbs.db
 *.egg-info/
 dist/
 build/
+
+data/images/test1.zip
+data/images/
+data/processed/
+polished-bridge-454119-c2-82467e4c45c5.json
