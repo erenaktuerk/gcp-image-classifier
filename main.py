@@ -8,7 +8,7 @@ import pandas as pd
 
 # Print sys.path to debug module import issues
 print("Current sys.path:", sys.path)
-sys.path.append(os.path.abspath(os.path.dirname(_file_)))
+sys.path.append(os.path.abspath(os.path.dirname(__file__)))
 print("Updated sys.path:", sys.path)
 
 def download_from_gcs(gcs_path, local_path):
